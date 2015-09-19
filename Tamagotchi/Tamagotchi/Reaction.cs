@@ -25,7 +25,7 @@ namespace Tamagotchi
                 newState = _modifiers[influential].Modify(currentState, influential.Coefficient);
                 return;
             }
-            //Todo: create random modifier
+            //Todo: create random modifier or smth other
             newState = new TamagotchiState();
         }
     }
