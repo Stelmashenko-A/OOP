@@ -2,9 +2,11 @@
 {
     public interface ITamagotchiState
     {
-        double Health { get; }
+        int Health { get; }
 
-        double Happiness { get; }
+        int Happiness { get; }
+
+        int Energy { get; }
 
         bool IsDead { get; }
     }

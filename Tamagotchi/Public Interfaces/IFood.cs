@@ -2,6 +2,6 @@
 {
     public interface IFood : ITamagotchiInfluence
     {
-        double Amount { get; }
+        
     }
 }
